@@ -1,0 +1,66 @@
+button {
+  outline: none;
+  border: none;
+  color: var(--color-font);
+  border: 2px solid var(--color-font);
+  padding: 0.4rem 0;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-font-accent);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: center;
+  width: 100%;
+}
+.authTitle {
+  width: 100%;
+  text-align: center;
+  color: var(--color-font);
+}
+.authForm {
+  width: 100%;
+}
+
+.authForm__emailGroup {
+  display: flex;
+}
+
+.emailBtn {
+  flex-basis: 20%;
+  font-size: var(--font-size-small);
+}
+
+label[for='signup'] {
+  cursor: pointer;
+}
+
+.form_signup {
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+.auth_btn {
+  margin-top: 0.6rem;
+  width: 100%;
+  font-size: var(--font-size-medium);
+  outline: none;
+  border: none;
+  color: var(--color-font);
+  border: 2px solid var(--color-font);
+  padding: 0.4rem 0;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.auth_btn:hover {
+  background-color: var(--color-accent);
+  color: var(--color-font-accent);
+}

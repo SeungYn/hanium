@@ -1,0 +1,14 @@
+.nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: var(--font-size-medium);
+}
+
+.link {
+  display: flex;
+}
+
+.reactIcon {
+  font-size: 2rem;
+}

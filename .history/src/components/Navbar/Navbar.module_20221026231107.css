@@ -1,0 +1,28 @@
+.nav {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: var(--font-size-medium);
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  color: black;
+}
+
+.navMenu {
+  height: 0;
+}
+
+.reactIcon {
+  font-size: 3rem;
+}
+
+.btn {
+  padding: 0;
+}

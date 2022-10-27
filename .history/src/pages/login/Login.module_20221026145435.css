@@ -1,0 +1,11 @@
+.container {
+  text-align: center;
+}
+
+label[for='signup'] {
+  cursor: pointer;
+}
+
+.form_signup {
+  margin-top: 0.4rem;
+}

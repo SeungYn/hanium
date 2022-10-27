@@ -1,0 +1,19 @@
+.nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: var(--font-size-medium);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.reactIcon {
+  font-size: 3rem;
+}
+
+.btn {
+  padding: 0;
+}

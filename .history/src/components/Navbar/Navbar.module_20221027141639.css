@@ -1,0 +1,71 @@
+.nav {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: var(--font-size-medium);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  align-items: center;
+  height: 50%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  color: black;
+}
+
+.navMenu {
+  /* opacity: 0;
+  pointer-events: none;
+  transition: all 0.1s ease-out; */
+
+  transition: height 0.3s ease-in;
+  overflow: hidden;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.navAppear {
+  height: 100%;
+}
+
+.navDisappear {
+  height: 0%;
+}
+
+.reactIcon {
+  font-size: 2.7rem;
+}
+
+.btn {
+  padding: 0;
+  transition: all 0.1s ease-in;
+}
+.text {
+  display: block;
+
+  text-align: left;
+}
+.btn:hover {
+}
+
+/* @keyframes listUp {
+  0% {
+    height: 0%;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 100%;
+  }
+} */

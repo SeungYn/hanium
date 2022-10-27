@@ -1,0 +1,8 @@
+.nav {
+  position: absolute;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
