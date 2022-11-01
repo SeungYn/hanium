@@ -1,0 +1,9 @@
+.body {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.makeBtn {
+  position: absolute;
+}

@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typeBtn {
+  border-radius: 100%;
+  padding: 0.4rem;
+}
+
+.reactIcon {
+  font-size: var(--font-size-medium);
+}

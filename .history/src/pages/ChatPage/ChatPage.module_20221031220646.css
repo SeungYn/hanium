@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  bottom: 10%;
+}
+
+/* 채팅 부분 */
+.chats {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 0.4rem;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__reverse {
+  align-items: end;
+}
+
+.nickname {
+  font-weight: bold;
+  margin-top: 0.4rem;
+}
+.chat li {
+}

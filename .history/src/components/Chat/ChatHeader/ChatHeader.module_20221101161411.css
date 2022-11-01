@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.4rem;
+}
+
+.prevBtn {
+  border: none;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.preBtn:hover:not() {
+}
+
+.icon {
+  font-size: var(--font-size-medium);
+}

@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.4rem;
+}
+
+.prevBtn,
+.searchBtn,
+.sideBtn {
+  border: none;
+}
+
+.icon {
+  font-size: var(--font-size-medium);
+}

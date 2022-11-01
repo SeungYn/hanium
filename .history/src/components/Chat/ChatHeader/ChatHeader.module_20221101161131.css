@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prevBtn {
+  border: none;
+}
+
+.icon {
+  font-size: var(--font-size-medium);
+}

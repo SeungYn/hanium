@@ -1,0 +1,34 @@
+import React from 'react';
+import ChatPeoples from '../ChatPeoples/ChatPeoples';
+import styles from './ChatSideBar.module.css';
+
+export default function ChatSideBar({ members, sideBarToggle }) {
+  const onCloseSideBar = (e) => {
+    console.log(123);
+    if ('container' in e.target.dataset) {
+      console.log(true);
+    }
+  };
+  return (
+    <section
+      className={`${styles.container} ${
+        sideBarToggle ? styles.sideOn : styles.sideOff
+      }`}
+      onClick={onCloseSideBar}
+      data-container={true}
+    >
+      <div className={styles.menu}>
+        <ul className={styles.members}>
+          <p className={styles.subject}>대화상대</p>
+          {members.map((m) => (
+            <ChatPeoples key={m.nickname} member={m} />
+          ))}
+        </ul>
+      </div>
+
+      <footer className={styles.footer}>
+        <span className={styles.footer__icon}>나가기</span>
+      </footer>
+    </section>
+  );
+}

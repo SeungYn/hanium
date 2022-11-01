@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typeBtn {
+  border-radius: 100%;
+  padding: 0.4rem;
+  border: 1px solid var(--color-darkBlue);
+  display: flex;
+  align-items: center;
+}
+
+.reactIcon {
+  font-size: var(--font-size-small-medium);
+}
+
+.avtive {
+  background-color: var(--color-accent);
+  color: var(--color-font-accent);
+}
+
+.typeName {
+}

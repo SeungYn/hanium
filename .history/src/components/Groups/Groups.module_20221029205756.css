@@ -1,0 +1,19 @@
+.groups {
+  overflow-y: auto;
+
+  margin: 0 0.4rem;
+  height: 200px;
+}
+
+.group {
+  border-bottom: 1px solid var(--color-darkBlue);
+  cursor: pointer;
+  padding: 0.4rem 0;
+}
+
+.group:not(:first-child) {
+}
+
+.title {
+  font-size: var(--font-size-small-medium);
+}

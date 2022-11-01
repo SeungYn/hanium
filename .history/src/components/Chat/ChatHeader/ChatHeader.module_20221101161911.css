@@ -1,0 +1,20 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.4rem;
+}
+
+.prevBtn,
+.searchBtn,
+.sideBtn {
+  border: none;
+}
+
+.rightpart {
+  gap: 0.2rem;
+}
+
+.icon {
+  font-size: var(--font-size-medium);
+}

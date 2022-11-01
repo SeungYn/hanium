@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typeBtn {
+  border-radius: 100%;
+  border: 0;
+}

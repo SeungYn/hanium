@@ -1,0 +1,16 @@
+.groups {
+  overflow: hidden;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.4rem;
+}
+
+.group {
+  border-bottom: 1px solid var(--color-darkBlue);
+  cursor: pointer;
+}
+
+.group:not(:first-child) {
+  margin-top: 0.8rem;
+}
