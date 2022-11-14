@@ -1,0 +1,13 @@
+.item {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.img {
+  width: 20%;
+}
+
+.right {
+  width: 100%;
+}

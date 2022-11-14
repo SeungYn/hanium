@@ -1,0 +1,22 @@
+.item {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.img {
+  width: 20;
+  height: 6rem;
+}
+.title {
+  font-size: var(--font-size-medium);
+  margin-bottom: 0.4rem;
+}
+
+.nickname {
+  font-size: var(--font-size-small-medium);
+}
+
+.right {
+  width: 100%;
+}

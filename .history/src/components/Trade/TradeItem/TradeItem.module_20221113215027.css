@@ -1,0 +1,17 @@
+.item {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.img {
+  width: 20;
+  height: 6rem;
+}
+.title {
+  font-size: var(--font-size-medium);
+}
+
+.right {
+  width: 100%;
+}

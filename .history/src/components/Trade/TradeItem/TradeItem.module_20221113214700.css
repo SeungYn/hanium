@@ -1,0 +1,8 @@
+.item {
+  display: flex;
+  cursor: pointer;
+}
+
+.right {
+  width: 100%;
+}

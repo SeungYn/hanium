@@ -1,0 +1,7 @@
+.categories {
+  display: flex;
+}
+
+.category {
+  padding: 0.6rem;
+}

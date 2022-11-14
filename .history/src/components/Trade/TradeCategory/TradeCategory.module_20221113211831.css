@@ -1,0 +1,8 @@
+.categories {
+  display: flex;
+}
+
+.category {
+  padding: 0.6rem;
+  font-size: var(--font-size-very-large);
+}

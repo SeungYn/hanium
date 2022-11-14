@@ -1,0 +1,13 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+}
+
+.img {
+}
