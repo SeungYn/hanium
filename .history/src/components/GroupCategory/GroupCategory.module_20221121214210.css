@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  background-color: var(--color-bg);
+  justify-content: space-evenly;
+  padding: var(--padding-bottom) 0;
+  margin: 0 var(--maring-side);
+  border-radius: 1rem;
+  margin-top: var(--margin-top);
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typeBtn {
+  border-radius: 100%;
+  background-color: var(--color-bg);
+  padding: 0.6rem;
+  border: 2px solid var(--color-darkBlue);
+  display: flex;
+  align-items: center;
+  color: var(--color-main);
+}
+
+.reactIcon {
+  font-size: var(--font-size-medium);
+}
+
+.avtive {
+  background-color: var(--color-accent);
+  color: var(--color-font-accent);
+}
+
+.typeName {
+}

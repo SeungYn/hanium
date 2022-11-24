@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.6rem;
+  align-items: center;
+  border-bottom: 1px solid var(--color-darkBlue);
+}
+.htitle {
+  color: var(--color-darkBlue);
+  font-size: var(--font-size-small-large);
+}
+
+.items {
+  height: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-main);
+  margin: var(--margin-side);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background-color: var(--color-bg);
+  -moz-box-shadow: var(--shadow);
+  -webkit-box-shadow: var(--shadow);
+}

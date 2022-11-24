@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 0 0.4rem;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--font-size-very-large);
+}
+
+.searchBtn {
+  border: none;
+}
+
+.searchBtn:hover {
+}
+
+.icon {
+}

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 0 0.4rem;
+  align-items: center;
+  border-bottom: 10px solod var(--color-darkBlue);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--font-size-small-large);
+  color: var(--color-darkBlue);
+}
+
+.searchBtn {
+  border: none;
+}
+
+.searchBtn:hover {
+  border: none;
+  color: none;
+  background-color: none;
+}
+
+.searchBtn:hover {
+}
+
+.icon {
+  font-size: var(--font-size-small-large);
+}

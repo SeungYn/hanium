@@ -1,0 +1,12 @@
+.btn {
+  outline: none;
+  padding: 0.2rem 0.6rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-darkBlue);
+  font-size: var(--font-size-medium);
+  border: 2px solid var(--color-darkBlue);
+  border-radius: 20px;
+  font-weight: 600;
+}

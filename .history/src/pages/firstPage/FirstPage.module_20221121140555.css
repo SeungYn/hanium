@@ -1,0 +1,20 @@
+.body {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.makerBtn {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.4rem 0.6rem;
+  font-size: var(--font-size-small);
+  font-weight: bold;
+  background-color: var(--color-bg);
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid var(--color-darkBlue);
+  color: var(--color-darkBlue);
+}

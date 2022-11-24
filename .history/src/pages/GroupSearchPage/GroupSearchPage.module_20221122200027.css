@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.inputForm {
+  display: flex;
+  background-color: var(--color-bg);
+  border-bottom: 2px solid var(--color-darkBlue);
+  padding: 0.2rem 0.6rem;
+}
+
+.inputText {
+  outline: none;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+}

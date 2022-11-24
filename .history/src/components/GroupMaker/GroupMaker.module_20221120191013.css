@@ -1,0 +1,25 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  background-color: var(--color-bg);
+  z-index: 99;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appear {
+  top: 0%;
+  opacity: 1;
+}
+
+.disappear {
+  top: 100%;
+  opacity: 0;
+}

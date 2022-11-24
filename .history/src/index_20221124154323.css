@@ -1,0 +1,126 @@
+:root {
+  --color-darkBlue: #073d5d;
+  --color-transparent-darkBlue: #073e5d6e;
+  --color-darkBlue-lignt: #0a476b;
+  /* --color-main: #42a5f5; */
+  --color-bg-dark: #f5f5f5;
+  --color-bg: #fdfffd;
+  --color-main: #073d5d;
+  --color-font: #073d5d;
+  --color-font-reverse: white;
+  --color-accent: #073d5d;
+  --color-main-active: white;
+  --color-font-accent: white;
+  --color-error-bg: rgba(173, 173, 173, 0.401);
+  --color-popup-bg: white;
+  --color-white: white;
+  --color-shadow: rgba(67, 67, 67, 0.401);
+  --color-border: #0a476b;
+  /* 사이즈 */
+  --font-size-very-large: 1.8rem;
+  --font-size-small-large: 1.6rem;
+  --font-size-medium: 1.4rem;
+  --font-size-small-medium: 1.2rem;
+  --font-size-small: 1rem;
+  --font-header-icon: 1.8rem;
+  --font-icon-arrow: 5rem;
+  --font-mobile-medium: 1rem;
+  --img-slider-height: 30rem;
+
+  /* 패딩 마진 사이즈 */
+  --padding-side: 0.8rem;
+  --padding-top-bottom: 0.6rem;
+  --padding-bottom: 0.6rem;
+  --margin-bottom: 0.6rem;
+  --margin-top: 0.6rem;
+  --margin-side: 0.6rem;
+
+  /* radius */
+  --radius: 1rem;
+
+  /* 그림자 */
+  --shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.49);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: rgb(81, 87, 111);
+  background: linear-gradient(
+    106deg,
+    rgba(81, 87, 111, 1) 0%,
+    rgba(60, 61, 69, 1) 100%
+  );
+  accent-color: var(--color-accent);
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: var(--color-main); /* 스크롤바의 색상 */
+
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1); /*스크롤바 뒷 배경 색상*/
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-font);
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#root {
+  height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--color-bg-dark);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}

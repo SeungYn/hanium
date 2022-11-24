@@ -1,0 +1,82 @@
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
+}
+
+.input {
+  bottom: 10%;
+}
+
+/* 채팅 부분 */
+.chats {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 0.4rem;
+  color: var(--color-darkBlue-lignt);
+  font-size: var(--font-size-small-medium);
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__reverse {
+  align-items: end;
+}
+
+.content {
+  display: flex;
+  align-items: end;
+}
+.content__reverse {
+  flex-direction: row-reverse;
+}
+.message {
+  font-size: var(--font-size-medium);
+  border: 1px solid var(--color-darkBlue);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  margin-top: 0.2rem;
+  word-wrap: normal;
+  word-break: break-all;
+}
+
+.nickname {
+  font-weight: bold;
+  margin-top: 0.8rem;
+}
+
+.time {
+  font-size: 0.8rem;
+}
+
+.chat li {
+}
+
+.sendForm {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  font-size: var(--font-size-medium);
+}
+.sendBtn {
+  padding: 0.2rem;
+  border-radius: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid var(--color-main);
+  cursor: pointer;
+  color: var(--color-darkBlue);
+}
+.icon {
+  font-size: var(--font-size-medium);
+}

@@ -1,0 +1,14 @@
+.categories {
+  display: flex;
+}
+
+.category {
+  font-size: var(--font-size-small-large);
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--color-darkBlue);
+}
+
+.active {
+  border-bottom: 3px solid var(--color-main);
+}

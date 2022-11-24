@@ -1,0 +1,20 @@
+.btn {
+  border: none;
+  outline: none;
+  outline: none;
+  padding: 0.2rem 0.6rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-darkBlue);
+}
+
+.btn:hover {
+  color: var(--color-darkBlue);
+  background-color: transparent;
+}
+
+.icon {
+  font-size: 1.6rem;
+  font-weight: 600;
+}

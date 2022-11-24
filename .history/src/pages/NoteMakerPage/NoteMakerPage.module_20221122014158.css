@@ -1,0 +1,9 @@
+.appear {
+  top: 0%;
+  opacity: 1;
+}
+
+.disappear {
+  top: 100%;
+  opacity: 0;
+}

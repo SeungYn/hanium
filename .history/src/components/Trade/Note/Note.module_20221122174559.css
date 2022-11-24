@@ -1,0 +1,17 @@
+.note {
+  padding: var(--padding-side);
+  border-bottom: 1px solid var(--color-main);
+  color: var(--color);
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.reciver {
+  color: #42a5f5;
+}
+
+.message {
+  word-break: break-all;
+}

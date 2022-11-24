@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  background-color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 5%;
+  border: none;
+  outline: none;
+  font-size: var(--font-size-small-large);
+  padding: 0.4rem 0.6rem;
+}
+
+.textarea {
+  font-size: var(--font-size-medium);
+  min-height: 40%;
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.6rem;
+}
+
+.appear {
+  top: 0%;
+  opacity: 1;
+}
+
+.disappear {
+  top: 100%;
+  opacity: 0;
+}

@@ -1,0 +1,27 @@
+.container {
+  height: 100%;
+  margin: 0 var(--margin-side);
+}
+.inputForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg);
+  margin: 0.4rem 0.6rem;
+  border-radius: 10px;
+}
+
+.inputText {
+  width: 100%;
+  border: none;
+  font-size: var(--font-size-medium);
+  outline: none;
+}
+
+.items {
+  background-color: var(--color-bg);
+  height: 100%;
+  overflow-y: auto;
+  margin: 0 var(--maring-side);
+  border-radius: 10px;
+}

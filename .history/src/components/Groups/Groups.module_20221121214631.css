@@ -1,0 +1,22 @@
+.groups {
+  overflow-y: auto;
+  height: 100%;
+  margin: 0 var(--maring-side);
+  border-radius: 1rem;
+  background-color: var(--color-bg);
+  margin-top: var(--margin-top);
+  border: 1px solid var(--color-main);
+}
+
+.group {
+  border-bottom: 1px solid var(--color-darkBlue);
+  cursor: pointer;
+  padding: 0.4rem 0;
+}
+
+.group:not(:first-child) {
+}
+
+.title {
+  font-size: var(--font-size-small-medium);
+}

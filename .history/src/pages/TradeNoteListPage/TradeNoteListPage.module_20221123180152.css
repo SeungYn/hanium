@@ -1,0 +1,18 @@
+.items {
+  height: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-main);
+  background-color: var(--color-bg);
+  margin: var(--margin-side);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  -moz-box-shadow: var(--shadow);
+  -webkit-box-shadow: var(--shadow);
+}
+
+.items::-webkit-scrollbar {
+  width: 1000px;
+}

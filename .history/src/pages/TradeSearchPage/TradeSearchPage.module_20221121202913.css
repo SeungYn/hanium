@@ -1,0 +1,12 @@
+.inputForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg);
+  margin: 0.4rem 0.6rem;
+  border-radius: 10px;
+}
+
+.inputText {
+  width: 100%;
+}

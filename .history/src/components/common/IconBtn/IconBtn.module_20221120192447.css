@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  color: var(--color-darkBlue);
+  background-color: transparent;
+}
+
+.icon {
+  font-size: var(--font-size-small-large);
+}

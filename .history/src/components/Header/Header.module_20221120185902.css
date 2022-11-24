@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.title {
+  margin: 0;
+}
+
+.searchBtn {
+  border: none;
+}
+
+.searchBtn:hover {
+}
+
+.icon {
+}
