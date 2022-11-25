@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hanium/static/css/main.b9e07cbe.css",
+    "main.js": "/hanium/static/js/main.398c43b9.js",
+    "index.html": "/hanium/index.html",
+    "main.b9e07cbe.css.map": "/hanium/static/css/main.b9e07cbe.css.map",
+    "main.398c43b9.js.map": "/hanium/static/js/main.398c43b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9e07cbe.css",
+    "static/js/main.398c43b9.js"
+  ]
+}
